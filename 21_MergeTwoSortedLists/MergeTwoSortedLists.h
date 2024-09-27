@@ -6,7 +6,7 @@ namespace Util
     struct ListNode;
 }
 
-class MergeTwoSortedLists : Exercise
+class MergeTwoSortedLists : public Exercise
 {
 public:
     Util::ListNode* mergeTwoLists(Util::ListNode* list1, Util::ListNode* list2);

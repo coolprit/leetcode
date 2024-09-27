@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include "../Exercise.h"
 
-class TwoSum : Exercise
+class TwoSum : public Exercise
 {
 public:
     std::vector<int> twoSum(std::vector<int>& nums, int target);

@@ -1,11 +1,10 @@
 ﻿#pragma once
-
 #include "../Exercise.h"
 
-class ValidParentheses : public Exercise
+class ValidPalindrome : public Exercise
 {
 public:
-    bool isValid(std::string s);
+    bool isPalindrome(std::string s);
     void test() override;
     void processExample(std::string s);
 };

@@ -25,7 +25,6 @@ void TwoSum::processExample(std::vector<int> values, int target)
     Util::printVector<int>(result);
 }
 
-
 void TwoSum::test()
 {
     std::cout << "1: Two Sum" << "\n";

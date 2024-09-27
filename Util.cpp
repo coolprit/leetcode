@@ -1,5 +1,8 @@
 ﻿#include "Util.h"
 
+#include <queue>
+#include <iostream>
+
 namespace Util
 {
     void print2dVector(std::vector<std::vector<int>>& vector_2d)
@@ -40,6 +43,47 @@ namespace Util
             iterator = iterator->next;
         }
         std::cout << "]" << "\n";
+    }
+
+    void printPreOrder(TreeNode* node)
+    {
+        if(node == nullptr) return;
+        std::cout << node->val << " ";
+        printPostOrder(node->left);
+        printPostOrder(node->right);
+    }
+
+    void printInOrder(TreeNode* node)
+    {
+        if(node == nullptr) return;
+        printInOrder(node->left);
+        std::cout << node->val << " ";
+        printInOrder(node->right);
+    }
+
+
+    void printPostOrder(TreeNode* node)
+    {
+        if(node == nullptr) return;
+        printPreOrder(node->left);
+        printPreOrder(node->right);
+        std::cout << node->val << " ";
+    }
+
+    void printLeftToRight(TreeNode* node)
+    {
+        if(node == nullptr) return;
+        std::queue<TreeNode*> queue;
+        queue.push(node);
+        while(!queue.empty())
+        {
+            auto top = queue.front();
+            queue.pop();
+            std::cout << top->val << " ";
+            if(top->left != nullptr) queue.push(top->left);
+            if(top->right != nullptr) queue.push(top->right);
+        }
+        std::cout << "\n";
     }
 
 }

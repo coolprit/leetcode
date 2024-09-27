@@ -154,18 +154,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="121_BestTimeToBuyAndSellStock\BestTimeToBuyAndSellStock.cpp" />
+    <ClCompile Include="125_ValidPalindrome\ValidPalindrome.cpp" />
     <ClCompile Include="1_TwoSum\TwoSum.cpp" />
     <ClCompile Include="20_ValidParentheses\ValidParentheses.cpp" />
     <ClCompile Include="21_MergeTwoSortedLists\MergeTwoSortedLists.cpp" />
+    <ClCompile Include="226_InvertBinaryTree\InvertBinaryTree.cpp" />
     <ClCompile Include="733_FloodFill\FloodFill.cpp" />
     <ClCompile Include="Exercise.cpp" />
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="Util.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="121_BestTimeToBuyAndSellStock\BestTimeToBuyAndSellStock.h" />
+    <ClInclude Include="125_ValidPalindrome\ValidPalindrome.h" />
     <ClInclude Include="1_TwoSum\TwoSum.h" />
     <ClInclude Include="20_ValidParentheses\ValidParentheses.h" />
     <ClInclude Include="21_MergeTwoSortedLists\MergeTwoSortedLists.h" />
+    <ClInclude Include="226_InvertBinaryTree\InvertBinaryTree.h" />
     <ClInclude Include="733_FloodFill\FloodFill.h" />
     <ClInclude Include="Exercise.h" />
     <ClInclude Include="LeetCode.h" />
