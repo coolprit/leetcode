@@ -1,4 +1,5 @@
 ﻿#pragma once
+#include <stack>
 #include <vector>
 
 namespace Util
@@ -19,6 +20,49 @@ namespace Util
         TreeNode() : val(0), left(nullptr), right(nullptr) {}
         TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
         TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+    };
+
+    class StackBasedQueue
+    {
+    public:    
+        std::stack<int> queueStack;
+        std::stack<int> operationStack;
+
+        StackBasedQueue() {}
+
+        void push(int x)
+        {
+            while(!queueStack.empty())
+            {
+                int poppedVal = queueStack.top();
+                queueStack.pop();
+                operationStack.push(poppedVal);
+            }
+            queueStack.push(x);
+            while(!operationStack.empty()) 
+            {
+                int poppedVal = operationStack.top();
+                operationStack.pop();
+                queueStack.push(poppedVal);
+            }
+        }
+
+        int pop()
+        {
+            int poppedVal = queueStack.top();
+            queueStack.pop();
+            return poppedVal;
+        }
+
+        int peek()
+        {
+            return queueStack.top();
+        }
+
+        bool empty()
+        {
+            return queueStack.empty();
+        }
     };
     
     void print2dVector(std::vector<std::vector<int>>& vector_2d);
