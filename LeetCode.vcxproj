@@ -109,6 +109,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -154,44 +155,59 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="121_BestTimeToBuyAndSellStock\BestTimeToBuyAndSellStock.cpp" />
-    <ClCompile Include="125_ValidPalindrome\ValidPalindrome.cpp" />
-    <ClCompile Include="141_LinkedListCycle\LinkedListCycle.cpp" />
-    <ClCompile Include="169_MajorityElement\MajorityElement.cpp" />
-    <ClCompile Include="1_TwoSum\TwoSum.cpp" />
-    <ClCompile Include="20_ValidParentheses\ValidParentheses.cpp" />
-    <ClCompile Include="21_MergeTwoSortedLists\MergeTwoSortedLists.cpp" />
-    <ClCompile Include="226_InvertBinaryTree\InvertBinaryTree.cpp" />
-    <ClCompile Include="232_ImplementQueueUsingStacks\ImplementQueueUsingStacks.cpp" />
-    <ClCompile Include="242_ValidAnagram\ValidAnagram.cpp" />
-    <ClCompile Include="278_FirstBadVersion\FirstBadVersion.cpp" />
-    <ClCompile Include="383_RansomNote\RansomNote.cpp" />
-    <ClCompile Include="409_LongestPalindrome\LongestPalindrome.cpp" />
-    <ClCompile Include="704_BinarySearch\BinarySearch.cpp" />
-    <ClCompile Include="70_ClimbingStairs\ClimbingStairs.cpp" />
-    <ClCompile Include="733_FloodFill\FloodFill.cpp" />
-    <ClCompile Include="Exercise.cpp" />
+    <ClCompile Include="Exercises\121_BestTimeToBuyAndSellStock\BestTimeToBuyAndSellStock.cpp" />
+    <ClCompile Include="Exercises\125_ValidPalindrome\ValidPalindrome.cpp" />
+    <ClCompile Include="Exercises\136_SingleNumber\SingleNumber.cpp" />
+    <ClCompile Include="Exercises\13_RomanToInteger\RomanToInteger.cpp" />
+    <ClCompile Include="Exercises\141_LinkedListCycle\LinkedListCycle.cpp" />
+    <ClCompile Include="Exercises\169_MajorityElement\MajorityElement.cpp" />
+    <ClCompile Include="Exercises\1_TwoSum\TwoSum.cpp" />
+    <ClCompile Include="Exercises\206_ReverseLinkedList\ReverseLinkedList.cpp" />
+    <ClCompile Include="Exercises\20_ValidParentheses\ValidParentheses.cpp" />
+    <ClCompile Include="Exercises\217_ContainsDuplicate\ContainsDuplicate.cpp" />
+    <ClCompile Include="Exercises\21_MergeTwoSortedLists\MergeTwoSortedLists.cpp" />
+    <ClCompile Include="Exercises\226_InvertBinaryTree\InvertBinaryTree.cpp" />
+    <ClCompile Include="Exercises\232_ImplementQueueUsingStacks\ImplementQueueUsingStacks.cpp" />
+    <ClCompile Include="Exercises\234_PalindromeLinkedList\PalindromeLinkedList.cpp" />
+    <ClCompile Include="Exercises\242_ValidAnagram\ValidAnagram.cpp" />
+    <ClCompile Include="Exercises\278_FirstBadVersion\FirstBadVersion.cpp" />
+    <ClCompile Include="Exercises\283_MoveZeroes\MoveZeroes.cpp" />
+    <ClCompile Include="Exercises\338_CountingBits\CountingBits.cpp" />
+    <ClCompile Include="Exercises\383_RansomNote\RansomNote.cpp" />
+    <ClCompile Include="Exercises\409_LongestPalindrome\LongestPalindrome.cpp" />
+    <ClCompile Include="Exercises\704_BinarySearch\BinarySearch.cpp" />
+    <ClCompile Include="Exercises\70_ClimbingStairs\ClimbingStairs.cpp" />
+    <ClCompile Include="Exercises\733_FloodFill\FloodFill.cpp" />
+    <ClCompile Include="Exercises\844_BackspaceStringCompare\BackspaceStringCompare.cpp" />
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="Util.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="121_BestTimeToBuyAndSellStock\BestTimeToBuyAndSellStock.h" />
-    <ClInclude Include="125_ValidPalindrome\ValidPalindrome.h" />
-    <ClInclude Include="141_LinkedListCycle\LinkedListCycle.h" />
-    <ClInclude Include="169_MajorityElement\MajorityElement.h" />
-    <ClInclude Include="1_TwoSum\TwoSum.h" />
-    <ClInclude Include="20_ValidParentheses\ValidParentheses.h" />
-    <ClInclude Include="21_MergeTwoSortedLists\MergeTwoSortedLists.h" />
-    <ClInclude Include="226_InvertBinaryTree\InvertBinaryTree.h" />
-    <ClInclude Include="232_ImplementQueueUsingStacks\ImplementQueueUsingStacks.h" />
-    <ClInclude Include="242_ValidAnagram\ValidAnagram.h" />
-    <ClInclude Include="278_FirstBadVersion\FirstBadVersion.h" />
-    <ClInclude Include="383_RansomNote\RansomNote.h" />
-    <ClInclude Include="409_LongestPalindrome\LongestPalindrome.h" />
-    <ClInclude Include="704_BinarySearch\BinarySearch.h" />
-    <ClInclude Include="70_ClimbingStairs\ClimbingStairs.h" />
-    <ClInclude Include="733_FloodFill\FloodFill.h" />
     <ClInclude Include="Exercise.h" />
+    <ClInclude Include="Exercises\121_BestTimeToBuyAndSellStock\BestTimeToBuyAndSellStock.h" />
+    <ClInclude Include="Exercises\125_ValidPalindrome\ValidPalindrome.h" />
+    <ClInclude Include="Exercises\136_SingleNumber\SingleNumber.h" />
+    <ClInclude Include="Exercises\13_RomanToInteger\RomanToInteger.h" />
+    <ClInclude Include="Exercises\141_LinkedListCycle\LinkedListCycle.h" />
+    <ClInclude Include="Exercises\169_MajorityElement\MajorityElement.h" />
+    <ClInclude Include="Exercises\1_TwoSum\TwoSum.h" />
+    <ClInclude Include="Exercises\206_ReverseLinkedList\ReverseLinkedList.h" />
+    <ClInclude Include="Exercises\20_ValidParentheses\ValidParentheses.h" />
+    <ClInclude Include="Exercises\217_ContainsDuplicate\ContainsDuplicate.h" />
+    <ClInclude Include="Exercises\21_MergeTwoSortedLists\MergeTwoSortedLists.h" />
+    <ClInclude Include="Exercises\226_InvertBinaryTree\InvertBinaryTree.h" />
+    <ClInclude Include="Exercises\232_ImplementQueueUsingStacks\ImplementQueueUsingStacks.h" />
+    <ClInclude Include="Exercises\234_PalindromeLinkedList\PalindromeLinkedList.h" />
+    <ClInclude Include="Exercises\242_ValidAnagram\ValidAnagram.h" />
+    <ClInclude Include="Exercises\278_FirstBadVersion\FirstBadVersion.h" />
+    <ClInclude Include="Exercises\283_MoveZeroes\MoveZeroes.h" />
+    <ClInclude Include="Exercises\338_CountingBits\CountingBits.h" />
+    <ClInclude Include="Exercises\383_RansomNote\RansomNote.h" />
+    <ClInclude Include="Exercises\409_LongestPalindrome\LongestPalindrome.h" />
+    <ClInclude Include="Exercises\704_BinarySearch\BinarySearch.h" />
+    <ClInclude Include="Exercises\70_ClimbingStairs\ClimbingStairs.h" />
+    <ClInclude Include="Exercises\733_FloodFill\FloodFill.h" />
+    <ClInclude Include="Exercises\844_BackspaceStringCompare\BackspaceStringCompare.h" />
     <ClInclude Include="LeetCode.h" />
     <ClInclude Include="Util.h" />
   </ItemGroup>
