@@ -1,8 +1,11 @@
 #include "LeetCode.h"
 #include "Exercises/1_TwoSum/TwoSum.h"
+#include "Exercises/9_PalindromeNumber/PalindromeNumber.h"
 #include "Exercises/13_RomanToInteger/RomanToInteger.h"
+#include "Exercises/15_3Sum/ThreeSum.h"
 #include "Exercises/20_ValidParentheses/ValidParentheses.h"
 #include "Exercises/21_MergeTwoSortedLists/MergeTwoSortedLists.h"
+#include "Exercises/67_AddBinary/AddBinary.h"
 #include "Exercises/70_ClimbingStairs/ClimbingStairs.h"
 #include "Exercises/121_BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.h"
 #include "Exercises/125_ValidPalindrome/ValidPalindrome.h"
@@ -14,6 +17,7 @@
 #include "Exercises/226_InvertBinaryTree/InvertBinaryTree.h"
 #include "Exercises/232_ImplementQueueUsingStacks/ImplementQueueUsingStacks.h"
 #include "Exercises/234_PalindromeLinkedList/PalindromeLinkedList.h"
+#include "Exercises/239_SlidingWindowMaximum/SlidingWindowMaximum.h"
 #include "Exercises/242_ValidAnagram/ValidAnagram.h"
 #include "Exercises/278_FirstBadVersion/FirstBadVersion.h"
 #include "Exercises/283_MoveZeroes/MoveZeroes.h"
@@ -23,6 +27,7 @@
 #include "Exercises/704_BinarySearch/BinarySearch.h"
 #include "Exercises/733_FloodFill/FloodFill.h"
 #include "Exercises/844_BackspaceStringCompare/BackspaceStringCompare.h"
+#include "Exercises/876_MiddleOfTheLinkedList/MiddleOfTheLinkedList.h"
 
 int main(int argc, char* argv[])
 {
@@ -50,7 +55,12 @@ int main(int argc, char* argv[])
         std::make_unique<CountingBits>(Exercise::Difficulty::EASY),
         std::make_unique<SingleNumber>(Exercise::Difficulty::EASY),
         std::make_unique<PalindromeLinkedList>(Exercise::Difficulty::EASY),
-        std::make_unique<MoveZeroes>(Exercise::Difficulty::EASY)
+        std::make_unique<MoveZeroes>(Exercise::Difficulty::EASY),
+        std::make_unique<ThreeSum>(Exercise::Difficulty::MEDIUM),
+        std::make_unique<SlidingWindowMaximum>(Exercise::Difficulty::HARD),
+        std::make_unique<AddBinary>(Exercise::Difficulty::EASY),
+        std::make_unique<MiddleOfTheLinkedList>(Exercise::Difficulty::EASY),
+        std::make_unique<PalindromeNumber>(Exercise::Difficulty::EASY)
     };
 
     for (const auto& exercise : exercises)

@@ -46,7 +46,7 @@ int RomanToInteger::romanToInt(std::string s)
 
 void RomanToInteger::test()
 {
-    std::cout << "13: Roman To Integer" << difficultyToString(difficulty).value() <<"\n";;
+    std::cout << "13: Roman To Integer" << difficultyToString(difficulty).value() <<"\n";
     processExample("III");
     processExample("LVIII");
     processExample("MCMXCIV");
