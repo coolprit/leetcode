@@ -176,6 +176,7 @@
     <ClCompile Include="Exercises\283_MoveZeroes\MoveZeroes.cpp" />
     <ClCompile Include="Exercises\338_CountingBits\CountingBits.cpp" />
     <ClCompile Include="Exercises\383_RansomNote\RansomNote.cpp" />
+    <ClCompile Include="Exercises\3_LongestSubstringWithoutRepeatingCharacters\LongestSubstringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="Exercises\409_LongestPalindrome\LongestPalindrome.cpp" />
     <ClCompile Include="Exercises\67_AddBinary\AddBinary.cpp" />
     <ClCompile Include="Exercises\704_BinarySearch\BinarySearch.cpp" />
@@ -210,6 +211,7 @@
     <ClInclude Include="Exercises\283_MoveZeroes\MoveZeroes.h" />
     <ClInclude Include="Exercises\338_CountingBits\CountingBits.h" />
     <ClInclude Include="Exercises\383_RansomNote\RansomNote.h" />
+    <ClInclude Include="Exercises\3_LongestSubstringWithoutRepeatingCharacters\LongestSubstringWithoutRepeatingCharacters.h" />
     <ClInclude Include="Exercises\409_LongestPalindrome\LongestPalindrome.h" />
     <ClInclude Include="Exercises\67_AddBinary\AddBinary.h" />
     <ClInclude Include="Exercises\704_BinarySearch\BinarySearch.h" />

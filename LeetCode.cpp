@@ -1,5 +1,6 @@
 #include "LeetCode.h"
 #include "Exercises/1_TwoSum/TwoSum.h"
+#include "Exercises/3_LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.h"
 #include "Exercises/9_PalindromeNumber/PalindromeNumber.h"
 #include "Exercises/13_RomanToInteger/RomanToInteger.h"
 #include "Exercises/15_3Sum/ThreeSum.h"
@@ -60,7 +61,9 @@ int main(int argc, char* argv[])
         std::make_unique<SlidingWindowMaximum>(Exercise::Difficulty::HARD),
         std::make_unique<AddBinary>(Exercise::Difficulty::EASY),
         std::make_unique<MiddleOfTheLinkedList>(Exercise::Difficulty::EASY),
-        std::make_unique<PalindromeNumber>(Exercise::Difficulty::EASY)
+        std::make_unique<PalindromeNumber>(Exercise::Difficulty::EASY),
+        std::make_unique<LongestSubstringWithoutRepeatingCharacters>(Exercise::Difficulty::MEDIUM),
+        
     };
 
     for (const auto& exercise : exercises)
