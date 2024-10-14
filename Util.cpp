@@ -17,6 +17,22 @@ namespace Util
         }
     }
 
+    void printVectorOfVectors(std::vector<std::vector<int>>& vov)
+    {
+        std::cout << "[";
+        for (size_t i = 0; i < vov.size(); ++i)
+        {
+            std::cout << "[";
+            for (size_t j = 0; j < vov[i].size(); ++j)
+            {
+                std::cout << vov[i][j];
+                if (j != vov[i].size()-1) std::cout << ",";
+            }
+            std::cout << "]";
+        }
+        std::cout << "]\n";
+    }
+
     template<typename T>
     void printVector(std::vector<T>& vector)
     {
@@ -31,6 +47,8 @@ namespace Util
     }
 
     template void printVector<int>(std::vector<int>& vector);
+
+    template void printVector<std::string>(std::vector<std::string>& vector);
 
     void printListNode(ListNode* node)
     {

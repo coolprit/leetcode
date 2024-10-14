@@ -1,5 +1,6 @@
 ﻿#pragma once
 #include <stack>
+#include <string>
 #include <vector>
 
 namespace Util
@@ -66,10 +67,13 @@ namespace Util
     };
     
     void print2dVector(std::vector<std::vector<int>>& vector_2d);
+
+    void printVectorOfVectors(std::vector<std::vector<int>>& vov);
     
     template<typename T>
     void printVector(std::vector<T>& vector);
     extern template void printVector<int>(std::vector<int>& vector);
+    extern template void printVector<std::string>(std::vector<std::string>& vector);
     
     void printListNode(ListNode* node);
 

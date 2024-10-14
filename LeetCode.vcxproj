@@ -155,11 +155,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Exercises\102_BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.cpp" />
     <ClCompile Include="Exercises\121_BestTimeToBuyAndSellStock\BestTimeToBuyAndSellStock.cpp" />
     <ClCompile Include="Exercises\125_ValidPalindrome\ValidPalindrome.cpp" />
     <ClCompile Include="Exercises\136_SingleNumber\SingleNumber.cpp" />
     <ClCompile Include="Exercises\13_RomanToInteger\RomanToInteger.cpp" />
     <ClCompile Include="Exercises\141_LinkedListCycle\LinkedListCycle.cpp" />
+    <ClCompile Include="Exercises\150_EvaluateReversePolishNotation\EvaluateReversePolishNotation.cpp" />
     <ClCompile Include="Exercises\15_3Sum\ThreeSum.cpp" />
     <ClCompile Include="Exercises\169_MajorityElement\MajorityElement.cpp" />
     <ClCompile Include="Exercises\1_TwoSum\TwoSum.cpp" />
@@ -190,11 +192,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Exercise.h" />
+    <ClInclude Include="Exercises\102_BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.h" />
     <ClInclude Include="Exercises\121_BestTimeToBuyAndSellStock\BestTimeToBuyAndSellStock.h" />
     <ClInclude Include="Exercises\125_ValidPalindrome\ValidPalindrome.h" />
     <ClInclude Include="Exercises\136_SingleNumber\SingleNumber.h" />
     <ClInclude Include="Exercises\13_RomanToInteger\RomanToInteger.h" />
     <ClInclude Include="Exercises\141_LinkedListCycle\LinkedListCycle.h" />
+    <ClInclude Include="Exercises\150_EvaluateReversePolishNotation\EvaluateReversePolishNotation.h" />
     <ClInclude Include="Exercises\15_3Sum\ThreeSum.h" />
     <ClInclude Include="Exercises\169_MajorityElement\MajorityElement.h" />
     <ClInclude Include="Exercises\1_TwoSum\TwoSum.h" />

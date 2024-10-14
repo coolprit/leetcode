@@ -8,10 +8,12 @@
 #include "Exercises/21_MergeTwoSortedLists/MergeTwoSortedLists.h"
 #include "Exercises/67_AddBinary/AddBinary.h"
 #include "Exercises/70_ClimbingStairs/ClimbingStairs.h"
+#include "Exercises/102_BinaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.h"
 #include "Exercises/121_BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.h"
 #include "Exercises/125_ValidPalindrome/ValidPalindrome.h"
 #include "Exercises/136_SingleNumber/SingleNumber.h"
 #include "Exercises/141_LinkedListCycle/LinkedListCycle.h"
+#include "Exercises/150_EvaluateReversePolishNotation/EvaluateReversePolishNotation.h"
 #include "Exercises/169_MajorityElement/MajorityElement.h"
 #include "Exercises/206_ReverseLinkedList/ReverseLinkedList.h"
 #include "Exercises/217_ContainsDuplicate/ContainsDuplicate.h"
@@ -63,7 +65,8 @@ int main(int argc, char* argv[])
         std::make_unique<MiddleOfTheLinkedList>(Exercise::Difficulty::EASY),
         std::make_unique<PalindromeNumber>(Exercise::Difficulty::EASY),
         std::make_unique<LongestSubstringWithoutRepeatingCharacters>(Exercise::Difficulty::MEDIUM),
-        
+        std::make_unique<BinaryTreeLevelOrderTraversal>(Exercise::Difficulty::MEDIUM),
+        std::make_unique<EvaluateReversePolishNotation>(Exercise::Difficulty::MEDIUM)
     };
 
     for (const auto& exercise : exercises)
